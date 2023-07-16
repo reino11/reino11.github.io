@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: 'General Sans', sans-serif;
+  }
+  
+  img,
+  picture,
+  video,
+  canvas,
+  svg{
+      display: block;
+      max-width: 100%;
+      user-select: none;
+  }
+  
+  .p__1{
+    color: rgb(70, 128, 182);
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  strong{
+    color: rgb(22, 34, 75);
+    font-weight: 600;
+  }
+  
+  .strong2{
+    color: rgb(70, 128, 182);
+  }
+  
+  .btn{
+    margin-top: -7px;
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 60px;
+  }
+  
+  .btn2{
+    margin-top: -7px;
+    background-color: rgb(70, 128, 182);
+    padding: 0.7rem;
+    border-radius: 60px;
+    width: 9.7rem;
+  }
+  
+  p2{
+    opacity: 0.6;
+    font-weight: 500;
+  }

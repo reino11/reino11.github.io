@@ -1,0 +1,25 @@
+.cards__container{
+    height: 30rem;
+    background-color: rgb(243, 243, 243);
+    justify-content: center;
+    letter-spacing: 0.5px;
+    display: grid;
+    grid-template-rows: 12rem 12rem;
+    grid-template-columns: 19rem 19rem 19rem;
+    gap: 2rem;
+}
+
+.cards__container h1{
+    margin-bottom: 3rem;
+    font-size: 20px;
+}
+
+.cards__container p{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.cards__container footer{
+    font-weight: 600;
+}

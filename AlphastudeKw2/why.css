@@ -1,0 +1,30 @@
+.why__container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+    height: 18rem;
+}
+
+.why__writer{
+    margin-top: 7rem;
+    height: 5rem;
+
+}
+
+.why__writer h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    gap: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+}
+
+.why__writer p{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    opacity: 0.7;
+}

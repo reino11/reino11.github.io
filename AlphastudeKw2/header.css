@@ -1,0 +1,57 @@
+.container{
+    background-color: rgb(70, 128, 182);
+}
+
+.nav__menu{
+    display: flex;
+    justify-content: start;
+    padding: 1.5rem;
+    gap: 3.7rem;
+    list-style: none;
+}
+
+.link__style{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 450;
+    transition: 0.3s;
+    padding: 4px;
+}
+
+.link__style:hover{
+    color: rgb(161, 161, 161);
+    transform: translateY(-5px);
+}
+
+.logo__style{
+    margin-right: 1rem;
+    margin-left:4rem;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+}
+
+.icon{
+    height: 20px;
+    margin-right: 2px;
+}
+
+.login__style{
+    margin-left: 10rem;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(70, 128, 182);
+    font-weight: 550;
+    letter-spacing: 0.05rem;
+    display: flex;
+    height: 20px;
+    gap: 0.2rem;
+    transition: 0.3s;
+}
+
+.login__style:hover{
+    color: black;
+}
